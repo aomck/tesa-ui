@@ -14,7 +14,7 @@ const HomePage = () => {
       title: '01. React Router',
       description: 'เรียนรู้การทำ routing และการเปลี่ยนหน้า',
       path: '/01-route',
-      icon: 'mdi:routes',
+      icon: 'majesticons:open-line',
       color: '#2196F3',
     },
     {
@@ -69,9 +69,19 @@ const HomePage = () => {
   ];
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
+    <Container
+      maxWidth="lg"
+      sx={{
+        py: 4,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh'
+      }}
+    >
       <Typography variant="h2" gutterBottom align="center">
-        TESA UI Learning
+        TESA UI Learning 2025
       </Typography>
 
       <Typography variant="h6" paragraph align="center" color="text.secondary" sx={{ mb: 4 }}>

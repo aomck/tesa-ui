@@ -68,7 +68,7 @@ import { Grid } from '@mui/material';
         </Typography>
 
         <Grid container spacing={2} sx={{ mb: 3 }}>
-          <Grid size={4}>
+          <Grid size={5}>
             <Box sx={{ bgcolor: '#e3f2fd', p: 2, borderRadius: 1, textAlign: 'center' }}>
               ช่องที่ 1 (33.33%)
             </Box>

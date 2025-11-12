@@ -17,6 +17,7 @@ export interface Camera {
   id: string;          // UUID ของกล้อง
   name: string;        // ชื่อกล้อง เช่น "Team Alpha"
   location: string;    // ตำแหน่งกล้อง "defence" หรือ "offence"
+
 }
 
 // เหตุการณ์การตรวจจับ

@@ -68,7 +68,7 @@ const DetectionCard = ({ detection }: DetectionCardProps) => {
             {detection.objects.map((obj) => (
               <Chip
                 key={obj.obj_id}
-                label={`${obj.type} - ${obj.size}`}
+                label={`${obj.type} : ${obj.size}`}
                 size="small"
                 color="primary"
                 variant="outlined"

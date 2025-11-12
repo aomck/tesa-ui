@@ -13,7 +13,7 @@ const DetectionCardPage = () => {
     id: 1,
     cam_id: '550e8400-e29b-41d4-a716-446655440000',
     timestamp: '2025-01-11T10:30:00.000Z',
-    image_path: '/uploads/sample.jpg',
+    image_path: '/api/files/550e8400-e29b-41d4-a716-446655440000/a5b4454d.jpg',
     camera: {
       id: '550e8400-e29b-41d4-a716-446655440000',
       name: 'Team Alpha',
@@ -36,6 +36,14 @@ const DetectionCardPage = () => {
         objective: 'our',
         size: 'large',
       },
+      {
+        obj_id: 'obj_003',
+        type: 'drone',
+        lat: 14.297600,
+        lng: 101.166300,
+        objective: 'our',
+        size: 'small',
+      },
     ],
   };
 
@@ -57,7 +65,7 @@ const DetectionCardPage = () => {
 
         <Box sx={{ bgcolor: '#f5f5f5', p: 2, borderRadius: 1, mb: 2 }}>
           <Typography component="pre" sx={{ m: 0, fontSize: '0.875rem', overflow: 'auto' }}>
-{`// Import component และ type
+            {`// Import component และ type
 import DetectionCard from './components/DetectionCard';
 import { type DetectionEvent } from './types/detection';
 
